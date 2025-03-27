@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dvin24vt71g52"]
+
+[ext_resource type="Script" uid="uid://bjd405ntvsfxq" path="res://main.gd" id="1_0xm2m"]
+[ext_resource type="Texture2D" uid="uid://cxp1ym067dk30" path="res://justin.jpeg" id="2_h2yge"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_0xm2m")
+
+[node name="Justin" type="Sprite2D" parent="."]
+position = Vector2(576, 320)
+texture = ExtResource("2_h2yge")
