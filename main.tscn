@@ -36,3 +36,35 @@ texture = ExtResource("2_h2yge")
 
 [node name="Spin" type="Node2D" parent="Justin4"]
 script = ExtResource("1_0xm2m")
+
+[node name="Justin5" type="Sprite2D" parent="."]
+position = Vector2(192, 448)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_h2yge")
+
+[node name="Spin" type="Node2D" parent="Justin5"]
+script = ExtResource("1_0xm2m")
+
+[node name="Justin6" type="Sprite2D" parent="."]
+position = Vector2(704, 448)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_h2yge")
+
+[node name="Spin" type="Node2D" parent="Justin6"]
+script = ExtResource("1_0xm2m")
+
+[node name="Justin7" type="Sprite2D" parent="."]
+position = Vector2(448, 192)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_h2yge")
+
+[node name="Spin" type="Node2D" parent="Justin7"]
+script = ExtResource("1_0xm2m")
+
+[node name="Justin8" type="Sprite2D" parent="."]
+position = Vector2(960, 192)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_h2yge")
+
+[node name="Spin" type="Node2D" parent="Justin8"]
+script = ExtResource("1_0xm2m")
