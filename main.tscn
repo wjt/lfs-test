@@ -6,8 +6,15 @@
 [node name="Main" type="Node2D"]
 
 [node name="Justin" type="Sprite2D" parent="."]
-position = Vector2(576, 320)
+position = Vector2(320, 320)
 texture = ExtResource("2_h2yge")
 
 [node name="Spin" type="Node2D" parent="Justin"]
+script = ExtResource("1_0xm2m")
+
+[node name="Justin2" type="Sprite2D" parent="."]
+position = Vector2(832, 320)
+texture = ExtResource("2_h2yge")
+
+[node name="Spin" type="Node2D" parent="Justin2"]
 script = ExtResource("1_0xm2m")
