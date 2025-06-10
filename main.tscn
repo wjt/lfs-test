@@ -46,3 +46,12 @@ texture = ExtResource("3_h2yge")
 [node name="Spin" type="Node2D" parent="Will"]
 script = ExtResource("1_0xm2m")
 metadata/_custom_type_script = "uid://bjd405ntvsfxq"
+
+[node name="Will2" type="Sprite2D" parent="."]
+position = Vector2(704, 448)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_h2yge")
+
+[node name="Spin" type="Node2D" parent="Will2"]
+script = ExtResource("1_0xm2m")
+metadata/_custom_type_script = "uid://bjd405ntvsfxq"
